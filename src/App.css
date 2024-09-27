@@ -1,0 +1,1000 @@
+.App{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_page{
+  width:100%;
+  min-height: 60vh;
+  max-width: 1120px;
+  padding: 0 10px;
+  padding-top: 100px;
+}
+
+.about_left-context{
+  width: 100%;
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about_right-img{
+  width: 100%;
+  height: 92%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.about_img{
+  width: 100%;
+  max-width: 600px;
+  height: 540px;
+}
+
+.about_title{
+  font-family: 'Lilita One';
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: left;
+  color: #fff;
+  margin-top: 46px;
+}
+
+.context_button{
+  width: 196px;
+  height: 48px;
+  font-family: 'Lilita One';
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(56, 251, 255, 1);
+  border-radius: 15px;
+  font-size: 32px;
+  margin-top: 8px;
+}
+
+.about_text{
+  font-family: 'Lilita One';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(6, 58, 59, 1);
+  margin-top: 8px; 
+}
+
+.about_button{
+  width: 256px;
+  height: 80px;
+  border: 4px solid rgba(6, 58, 59, 1);
+  border-radius: 16px;
+  background-color: #fff;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: 'Lilita One';
+  color: rgba(6, 58, 59, 1);
+  margin-top: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.about_context-small{
+  font-family: Lilita One;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(6, 58, 59, 1);  
+  margin-top: 16px;
+}
+
+.aboutImg{
+  width: 600px;
+  height: 540px;
+}
+
+.tokenomics__wrap{
+  width: 100%;
+  background-color: rgba(6, 58, 59, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.tokenomics_wrap{
+  width: 100%;
+  min-height: 70vh;
+  max-width: 1120px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.token_wrap{
+  width: 100%;
+  max-width: 1120px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px;
+  border: 4px solid rgba(6, 58, 59, 1);
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 16px;
+}
+
+.token_text{
+  font-family: 'Lilita One';
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  color: rgba(6, 58, 59, 1);
+}
+
+.token_address_container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.token_copy{
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.token_address{
+  font-family: 'Lilita One';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgba(6, 58, 59, 1);
+  margin-left: 10px;
+  width: 100%;
+}
+
+.tokenomics_content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tokenomics_content_left{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenomics_title1{
+  font-family: 'Lilita One';
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: left;
+  color: #fff;
+  margin-top: 105px;
+}
+
+.tokenomics_title2{
+  font-family: 'Lilita One';
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: left;
+  color: #fff;
+  margin-top: 8px;
+}
+
+.tokenomics_text{
+  font-family: 'Lilita One';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(0, 188, 193, 1);
+  margin-top: 32px;
+}
+
+.tokenomics_button{
+  margin-top: 16px;
+  width: 256px;
+  height: 80px;
+  padding: 20px 57px 20px 58px;
+  border-radius: 16px;
+  border: 4px solid #fff;
+  background-color: rgba(0, 188, 193, 1);
+  color: #fff;
+  font-family: 'Lilita One';
+  font-size: 22px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.tokenomics_content_right{
+  width: 100%;
+  height: 85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.tokenomics_img{
+  width: 100%;
+  max-width: 540px;
+  height: 484px;
+}
+
+.tokenomics_bottom_blocks{
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: -60px;
+  padding: 0 10px;
+}
+
+.block{
+  width: 540px;
+  height: 240px;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 4px solid rgba(6, 58, 59, 1);
+}
+
+.block_title{
+  font-family: 'Lilita One';
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(6, 58, 59, 1);  
+  margin-top: 56px;
+}
+
+.block_text{
+  font-family: 'Lilita One';
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: center;
+  color: rgba(6, 58, 59, 1);  
+  margin-top: 24px;
+}
+
+.howToBuy_wrap{
+  width: 100%;
+  min-height: 100vh;
+  max-width: 1120px;
+}
+
+.howToBuy_title{
+  font-family: 'Lilita One';
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.howToBuy_cards_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 10px;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-top:80px;
+  padding-bottom: 160px;
+}
+
+.howToBuy_container-left{
+  width: 50%;
+  gap: 10px;
+}
+.howToBuy_container-right{
+  width: 50%;
+  gap: 10px;
+}
+
+.howToBuy_card{
+  width: 100%;
+  transition: 0.3s;
+  height: 320px;
+  border-radius: 16px;
+  background-color: #fff;
+  margin-top: 10px;
+  border: 4px solid rgba(6, 58, 59, 1);
+}
+
+.card_title{
+  font-family: 'Lilita One';
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: center;
+  color: rgba(6, 58, 59, 1);  
+  margin-top: 32px;
+}
+
+.card_text{
+  font-family: 'Lilita One';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(6, 58, 59, 1);  
+  margin-top: 16px;
+}
+
+.card_description{
+  font-family: 'Lilita One';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(6, 58, 59, 1);
+  margin-top: 16px;
+}
+
+.links__wrap{
+  width: 100%;
+  background-color: rgba(6, 58, 59, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.links_wrap{
+  width: 100%;
+  min-height: 70vh;
+  max-width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 0 10px;
+}
+
+.links_container-left{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.links_title{
+  font-family: 'Lilita One';
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: left;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.links_text{
+  font-family: 'Lilita One';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(0, 188, 193, 1);  
+  margin-top: 16px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+
+.links_container-right {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+
+
+.links_img1 {
+  transition: all 0.3s ease;
+  position: absolute;
+  left: 0; 
+  z-index: 1;
+  transform: translateX(-10%); 
+}
+
+/* Зображення 2 */
+.links_img2 {
+  transition: all 0.3s ease;
+  z-index: 2; /* Вище за інші */
+}
+
+/* Зображення 3 */
+.links_img3 {
+  transition: all 0.3s ease;
+  position: absolute;
+  right: 0; /* Початково по правому краю */
+  z-index: 1;
+  transform: translateX(10%); 
+}
+
+/* Ефекти при наведенні */
+.links_container-right:hover .links_img1 {
+  transform: translateX(-20%); /* Більше перекриття при наведенні */
+}
+
+.links_container-right:hover .links_img2 {
+  transform: scale(1.1); /* Збільшення другого зображення */
+}
+
+.links_container-right:hover .links_img3 {
+  transform: translateX(20%); /* Більше перекриття при наведенні */
+}
+
+.popup {
+  width: auto;
+  height: 50px;
+  border-radius: 15px;
+  background: linear-gradient(45deg, rgba(56, 251, 255, 1), rgba(0, 188, 193, 1));
+  position: fixed;
+  color: #fff;
+  font-family: 'Lilita One';
+  padding: 5px;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #fff;
+  bottom: -50px; /* Початкове положення */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: bottom 0.3s ease; /* Анімація переміщення */
+}
+
+.popup.show {
+  bottom: 20px;  /* Позиція, коли показується */
+}
+
+
+@media screen and (min-width: 320px) {
+  .tokenomics_title2{
+    font-size: 60px !important;
+  }
+  .links_img1{
+    width: 100px !important;
+    height: auto;
+    left: 50px;
+  }
+  .links_img2{
+    width: 150px !important;
+    height: auto;
+  }
+  .links_img3{
+    width: 100px !important;
+    height: auto;
+    right: 50px;
+  }
+  .tokenomics_bottom_blocks{
+    margin-top: -305px;
+  }
+  .tokenomics_bottom_blocks{
+    margin-top: -60px;
+  }
+  .dolar1{
+  /* display: none; */
+  position: absolute;
+  width: 100px;
+  right: 0;
+  margin-top: 100px;
+  }
+  .dolar2{
+  /* display: none; */
+  position: absolute;
+  width: 100px;
+  right: 0;
+  margin-top: 1250px;
+  }
+  .dolar3{
+  /* display: none; */
+  position: absolute;
+  width: 100px;
+  left: 0;
+  margin-top: 100px;
+  }
+  .dolar4{
+  width: 100%;
+  position: absolute;
+  width: 100px;
+  left: 0;
+  margin-top: 1250px;
+  }
+  .dolar5{
+  display: none;
+  }
+  .dolar6{
+  display: none;
+  }
+  .dolar7{
+  display: none;
+  }
+  .dolar8{
+  display: none;
+  }
+  .token_address{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 366px) {
+  .token_address{
+    font-size: 12px;
+  }
+  .dolar2{
+    top: 2350px;
+  }
+  .dolar4{
+    top: 2350px;
+  }
+}
+@media screen and (min-width: 402px) {
+  .dolar2{
+    top: 2330px;
+  }
+  .dolar4{
+    top: 2330px;
+  }
+}
+
+
+@media screen and (min-width: 420px) {
+  .tonken_address{
+    font-size: 16px;
+  }
+  .dolar1{
+    width: 100px;
+    max-width: 100%;
+    position: absolute;
+    top: 2450px;
+    right: 0;
+  }
+  .dolar2{
+    width: 100px;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 2300px;
+    /* display: flex; */
+  }
+  
+  .dolar3{
+    width: 100px;
+    max-width: 100%;
+    position: absolute;
+    top: 2450px;
+    left: 0;
+  }
+  
+  .dolar4{
+    width: 100px;
+    max-width: 100%;
+    position: absolute;
+    top: 2300px;
+    left: 0;
+    /* display: flex; */
+  }
+  .dolar5{
+    /* display: none; */
+  }
+  .dolar6{
+    /* display: none; */
+  }
+  .dolar7{
+    /* display: none; */
+  }
+  .dolar8{
+    /* display: none; */
+  }
+  .links_img1{
+    width: 150px !important;
+    height: auto;
+    left: 50px;
+  }
+  .links_img2{
+    width: 200px !important;
+    height: auto;
+  }
+  .links_img3{
+    width: 150px !important;
+    height: auto;
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .dolar2{
+    top: 2200px;
+  }
+  .dolar4{
+    top: 2200px;
+  }
+}
+  
+
+
+@media screen and (min-width: 648px) {
+  .howToBuy_wrap{
+    min-height: 75px;
+  }
+  .token_address_container{
+    width: auto;
+    flex-direction: row;
+  }
+  .token_copy{
+    width: 30px;
+    height: 30px;
+  }
+  .howToBuy_cards_container{
+  }
+  .howToBuy_container-left{
+    display: flex;
+    width: 50%;
+  }
+  .howToBuy_title{
+    font-size: 42px;
+  }
+  .howToBuy_container-right{
+    display: flex;
+    width: 50%;
+  }
+  .dolar1{
+    display: flex;
+    width: 100px;
+    max-width: 100%;
+    position: absolute;
+    top: 2250px;
+    right: 0;
+  }
+  
+  .dolar2{
+    display: flex;
+    width: 100px;
+    max-width: 100%;
+    position: absolute;
+    top: 1750px;
+    right: 0;
+  }
+  
+  .dolar3{
+    display: flex;
+    width: 100px;
+    max-width: 100%;
+    position: absolute;
+    top: 2250px;
+    left: 0;
+  }
+  
+  .dolar4{
+    display: flex;
+    width: 100px;
+    max-width: 100%;
+    position: absolute;
+    top: 1750px;
+    left: 0;
+  }
+  .dolar5{
+    display: flex;
+    width: 80px;
+    position: absolute;
+    left: 150px;
+    top:2500px
+  }
+  .dolar6{
+    display: flex;
+    width: 100px;
+    position: absolute;
+    top: 2500px;
+    right: 150px;
+  }
+  .dolar7{
+    display: flex;
+    width: 100px;
+    position: absolute;
+    left: 150px;
+    top: 3000px;
+  }
+  .dolar8{
+    display: flex;
+    width: 140px;
+    position: absolute;
+    right: 150px;
+    top: 3000px;
+  }
+
+  .links_img1{
+    width: 150px;
+    height: auto;
+    left: 50px;
+  }
+  .links_img2{
+    width: 220px;
+    height: auto;
+  }
+  .links_img3{
+    width: 150px;
+    height: auto;
+    right: 50px;
+  }
+  .links_img4{
+    
+  }
+  .links_img4{
+
+  }
+  .links_img4{
+
+  }
+  .tonken_address{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+
+  .about_page{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about_left-context{
+    width: 48%;
+    align-items: flex-start;
+  }
+  .about_button:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+  }
+  .about_title{
+    font-size: 72px;
+  }
+  .about_text{
+    text-align: left;
+  }
+  .about_context-small{
+    text-align: left;
+  }
+  .about_right-img{
+    width: 48%;
+  }
+  .tokenomics_content{
+    flex-direction: row;
+  }
+  .token_address_container{
+    padding-left: 100px;
+  }
+  .token_address{
+    font-size: 32px !important;
+  }
+
+  .token_copy{
+    width: 64px;
+    height: 64px;
+  }
+  .tokenomics_content_left{
+    width: 49%;
+    align-items: flex-start;
+  }
+  .tokenomics_button:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+  }
+  .tokenomics_content_right{
+    width: 49%;
+  }
+  .tokenomics_title2{
+    font-size: 90px;
+  }
+  .tokenomics_text{
+    text-align: left;
+  }
+  .tokenomics_content_right{
+    width: 48%;
+    padding: 0;
+    align-items: flex-end;
+    padding-bottom: 50px;
+  }
+  .tokenomics_img{
+    margin-top: 53px;
+  }
+  .block_text{
+    font-size: 90px;
+  }
+  .howToBuy_wrap{
+    min-height: 100vh;
+  }
+  .howToBuy_cards_container{
+    flex-wrap: nowrap;
+    padding: 0 10px;
+  }
+  .howToBuy_card:hover{
+    margin-top: -50px;
+    transition: 0.3s;
+  }
+  .howToBuy_title{
+    margin-top: 120px;
+  }
+  .links_wrap{
+    flex-direction: row;
+  }
+  .links_container-left{
+    width: 38%;
+    align-items: flex-start;
+  }
+  .links_title{
+    margin-top: 190px;
+  }
+  .links_text{
+    text-align: left;
+  }
+  .links_container-right{
+    width: 68%;
+    max-width: 600px;
+  }
+  .links_img1{
+    left: 50;
+    width: 226px !important;
+    height: auto;
+  }
+  .links_img2{
+    width: 280px !important;
+    height: auto;
+  }
+  .links_img3{
+    right: 50px;
+    width: 226px !important;
+    height: auto;
+  }
+  .dolar1{
+    display: flex;
+    width: 250px;
+    max-width: 100%;
+    position: absolute;
+    top: 1350px;
+    right: 0;
+  }
+  
+  .dolar2{
+    display: flex;
+    width: 250px;
+    max-width: 100%;
+    position: absolute;
+    top: 850px;
+    right: 0;
+  }
+  
+  .dolar3{
+    display: flex;
+    width: 250px;
+    max-width: 100%;
+    position: absolute;
+    top: 1350px;
+    left: 0;
+  }
+  
+  .dolar4{
+    display: flex;
+    width: 250px;
+    max-width: 100%;
+    position: absolute;
+    top: 850px;
+    left: 0;
+  }
+  .dolar5{
+    display: flex;
+    width: 140px;
+    position: absolute;
+    left: 250px;
+    top:1550px
+  }
+  .dolar6{
+    display: flex;
+    width: 140px;
+    position: absolute;
+    top: 1550px;
+    right: 250px;
+  }
+  .dolar7{
+    display: flex;
+    width: 140px;
+    position: absolute;
+    left: 250px;
+    top: 2150px;
+  }
+  .dolar8{
+     display: flex;
+    width: 140px;
+    position: absolute;
+    right: 250px;
+    top:2150px;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+  
+} */
+
+
+@media  screen and (min-width: 1480px) {
+  .dolar1{
+    width: 323px;
+    max-width: 100%;
+    top: 1300px;
+    right: 0;
+  }
+  
+  .dolar2{
+    width: 373px;
+    max-width: 100%;
+    position: absolute;
+    top: 900px;
+    right: 0;
+  }
+  
+  .dolar3{
+    width: 323px;
+    max-width: 100%;
+    top: 1300px;
+    left: 0;
+  }
+  
+  .dolar4{
+    width: 323px;
+    max-width: 100%;
+    top: 900px;
+    left: 0;
+  }
+  .dolar5{
+    left: 500px;
+    top:1500px
+  }
+  .dolar6{
+    top: 1500px;
+    right: 500px;
+  }
+  .dolar7{
+    left: 500px;
+    top: 2200px;
+  }
+  .dolar8{
+    right: 500px;
+    top: 2200px;
+  }
+  
+}
+
