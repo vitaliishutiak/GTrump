@@ -12,8 +12,6 @@
     min-height: 300px;
     margin-top: -60px;
     display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
     max-width: 1120px;
     gap: 10px;
     padding-bottom: 50px;
@@ -59,11 +57,8 @@ a{
     100% { transform: translate(0, 0); }
   }
   
-  /* Анімація при наведенні */
-  .social_bloks:hover {
-   
-    transform: scale(1.1);
-  }
+
+
 
 
 .bloks_text{
@@ -83,9 +78,7 @@ a{
     height: 128px; 
     margin-top: 44px;
 }
-.social_img:hover{
-    animation: shake 1s ease;
-}
+
 
 @media screen and (min-width: 648px) {
     .social_wrap{
@@ -111,4 +104,10 @@ a{
         display: flex;
         justify-content: space-around;
     }
+    .social_img:hover{
+        animation: shake 1s ease;
+    }
+    .social_bloks:hover {
+        transform: scale(1.1);
+      }
 }

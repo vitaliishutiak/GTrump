@@ -11,11 +11,11 @@ export default function
     <div className='footer' >
         <div className="social_wrap">
             <div className="social_bloks-left">
-                <a href="social_bloks_twitter" className='twitter'><div className="social_bloks">
+                <a href="https://x.com/GTRUMP_Sol" className='twitter'><div className="social_bloks">
                     <img className='social_img' src={twitterImg} alt="" />
                     <h2 className='bloks_text'>Twitter</h2>
                 </div></a>
-                <a href="https://twitter.com/GigaTrump" className='telegram'><div className="social_bloks">
+                <a href="https://t.me/GTRUMP_Sol" className='telegram'><div className="social_bloks">
                    <img className='social_img' src={telegramImg} alt="" />
                     <h2 className='bloks_text'>Telegram</h2>
                 </div> </a> 
